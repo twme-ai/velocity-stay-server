@@ -14,9 +14,9 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.build.outputTimestamp>2026-01-01T00:00:00Z</project.build.outputTimestamp>
         <maven.compiler.release>17</maven.compiler.release>
-        <velocity.api.version>3.0.0</velocity.api.version>
-        <junit.version>5.13.4</junit.version>
-        <mockito.version>5.18.0</mockito.version>
+        <velocity.api.version>4.0.0</velocity.api.version>
+        <junit.version>6.1.2</junit.version>
+        <mockito.version>5.23.0</mockito.version>
     </properties>
 
     <repositories>
@@ -54,7 +54,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.14.0</version>
+                <version>3.15.0</version>
                 <configuration>
                     <release>${maven.compiler.release}</release>
                     <parameters>true</parameters>
@@ -70,7 +70,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
-                <version>3.5.3</version>
+                <version>3.5.6</version>
             </plugin>
         </plugins>
     </build>
